@@ -51,5 +51,5 @@ private
   end 
  # Strong Parameter
   def task_params
-    params.require(:task).permit(:content, :stasut)
+    params.require(:task).permit(:content, :status)
   end
